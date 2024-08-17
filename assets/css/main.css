@@ -6,6 +6,27 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/* Add this to assets/css/main.css */
+/* Add this to assets/css/main.css */
+/* Add this to assets/css/main.css */
+.logo-letters {
+  font-size: 1.5rem; /* Increase size for better visibility */
+  font-weight: bold; /* Make it bold */ 
+  color: #50d8af; /* Silver */
+  margin-right: 10px; /* Space between letters and site name */
+  border: 2px solid #C0C0C0; /* Silver border */
+  padding: 8px; /* Add some padding inside the box */
+  border-radius: 10px; /* Round the corners for a softer look */
+  background: #003366; /* Deep Blue background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.logo-letters:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
