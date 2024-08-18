@@ -44,13 +44,16 @@
     }
     .category-icon {
         font-size: 50px; /* Increased icon size */
-        color: #007bff; /* Changed icon color to a modern blue */
+        color: #50d8af; /* Changed icon color to a modern blue */
     }
     .category-title {
         font-weight: bold;
         font-size: 24px; /* Increased title size */
         color: #0c2e8a;
         margin-top: 10px; /* Added margin for spacing */
+        white-space: nowrap; /* Added to fit title in one row */
+        overflow: hidden; /* Added to fit title in one row */
+        text-overflow: ellipsis; /* Added to fit title in one row */
     }
 
     .category-list {
@@ -104,10 +107,11 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html#hero" class="active">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="#hero" >Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#call-to-action" class="active">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -137,7 +141,7 @@
                     <div class="category-icon">
                         <i class="fas fa-laptop"></i> <!-- Updated icon to Font Awesome -->
                     </div>
-                    <div class="category-title">Web Development</div>
+                    <div class="category-title" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Web Development</div>
                     <ul class="category-list">
                         <li>C#</li>
                         <li>.Net Core</li>
