@@ -9,13 +9,17 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><text x='0' y='20' font-size='25' fill='%2350d8af'>DS</text></svg>" type="image/svg+xml">
+  <link rel="icon"
+    href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><text x='0' y='20' font-size='25' fill='%2350d8af'>DS</text></svg>"
+    type="image/svg+xml">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +30,40 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .category-card {
+        background-color: #f8f9fa;
+        border-radius: 50px;
+        padding: 20px;
+        text-align: center;
+        height: 100%;
+    }
 
+    .category-icon {
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: #0c2e8a;
+    }
+
+    .category-title {
+        font-weight: bold;
+        font-size: 20px;
+        color: #0c2e8a;
+    }
+
+    .category-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .category-list li {
+        font-size: 14px;
+    }
+
+    .container-custom {
+        margin-top: 50px;
+    }
+</style>
   <!-- =======================================================
   * Template Name: Reveal
   * Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
@@ -77,7 +114,6 @@
   </header>
 
   <main class="main">
-
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="heading">
@@ -85,60 +121,124 @@
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
               <h1>Our Consulting Skills Matrix</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
-            </div>
+              <p class="mb-0">Our Consulting Skills Matrix showcases our expertise and commitment to delivering exceptional solutions tailored to your needs.</p>
           </div>
         </div>
       </div>
     </div><!-- End Page Title -->
     <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">            
-              <a href="#software-development" class="active">Software Development</a>
-              <a href="#web-design" >Web Design</a>
-              <a href="#">Data Services</a>
-              <a href="#">Devops Services</a>
-              <a href="#">Real-Time Systems</a>
-              <a href="#">Cloud Services</a>
-              <a href="#">QA Tools</a>
+    <section id="service-details" class="service-details section" style="padding: 10px;">
+      <div class="container container-custom">
+        <div class="row text-center">
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                <div class="category-card p-3">
+                    <div class="category-icon">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                    <div class="category-title">Web Development</div>
+                    <ul class="category-list">
+                        <li>C#</li>
+                        <li>.Net Core</li>
+                        <li>.Net MAUI</li>
+                        <li>.Net Blazor</li>
+                        <li>.Net MVC</li>
+                        <li>Entity Framework</li>
+                        <li>Dapper ORM</li>
+                        <li>Java Script</li>
+                        <li>HTML/CSS</li>
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>XML/XSL</li>
+                    </ul>
+                </div>
             </div>
 
-            <h4>Enim qui eos rerum in delectus</h4>
-            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
-          </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                <div class="category-card p-3">
+                    <div class="category-icon">
+                        <i class="bi bi-paint-bucket"></i>
+                    </div>
+                    <div class="category-title">Web Design</div>
+                    <ul class="category-list">
+                        <li>3D MAX</li>
+                        <li>ADOBE PHOTOSHOP</li>
+                        <li>AFTER EFFECTS</li>
+                        <li>DIRECTOR</li>
+                        <li>DREAM WEAVER</li>
+                        <li>FIRE WORKS</li>
+                        <li>FLASH</li>
+                        <li>ADOBE ILLUSTRATOR</li>
+                        <li>PREMIER</li>
+                        <li>SWIFT3D</li>
+                        <li>POSER</li>
+                        <li>COREL DRAW</li>
+                        <li>SOUND FORGE</li>
+                    </ul>
+                </div>
+            </div>
 
-          <div id="software-development" class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <!-- <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3> -->
-            <p>
-              Software Development
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-            </ul>
-          </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                <div class="category-card p-3">
+                    <div class="category-icon">
+                        <i class="bi bi-cloud"></i>
+                    </div>
+                    <div class="category-title">Cloud Services</div>
+                    <ul class="category-list">
+                        <li>Azure Cloud</li>
+                        <li>Amazon Web Service</li>
+                        <li>Google Cloud</li>
+                    </ul>
+                </div>
+            </div>
 
-          <div id="web-design" class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <!-- <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3> -->
-            <p>
-              Web Design
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-            </ul>
-          </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                <div class="category-card p-3">
+                    <div class="category-icon">
+                        <i class="bi bi-tools"></i>
+                    </div>
+                    <div class="category-title">Devops Services</div>
+                    <ul class="category-list">
+                        <li>Azure Devops</li>
+                        <li>Jira</li>
+                        <li>Jenkins</li>
+                    </ul>
+                </div>
+            </div>
 
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                <div class="category-card p-3">
+                    <div class="category-icon">
+                        <i class="bi bi-database"></i>
+                    </div>
+                    <div class="category-title">Data Services</div>
+                    <ul class="category-list">
+                        <li>Data Warehouse</li>
+                        <li>ETL Tools</li>
+                        <li>Data Quality</li>
+                        <li>MS SQL SERVER</li>
+                        <li>MYSQL</li>
+                        <li>ORACLE</li>
+                        <li>ORACLE DBA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+              <div class="category-card p-3">
+                  <div class="category-icon">
+                      <i class="bi bi-clock"></i>
+                  </div>
+                  <div class="category-title">Real-Time Systems</div>
+                  <ul class="category-list">
+                      <li>PI System</li>
+                      <li>PI Asset Framework</li>
+                      <li>PI AF Analysis</li>
+                      <li>PI Integrator</li>
+                      <li>PI ODBC</li>
+                  </ul>
+              </div>
+          </div>
         </div>
-      </div>
+    </div>
     </section><!-- /Service Details Section -->
   </main>
 
@@ -162,7 +262,8 @@
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
