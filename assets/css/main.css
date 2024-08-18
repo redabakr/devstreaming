@@ -926,6 +926,13 @@ section,
   padding: 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   transition: 0.3s;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.services .service-item:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
 }
 
 .services .service-item .icon {
@@ -938,7 +945,7 @@ section,
 .services .service-item .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .services .service-item .title a {
@@ -947,12 +954,8 @@ section,
 
 .services .service-item .description {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
-}
-
-.services .service-item:hover {
-  border-color: var(--accent-color);
 }
 
 .services .service-item:hover .title a {
