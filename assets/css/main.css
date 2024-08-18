@@ -1108,15 +1108,18 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  margin-right: 15px;
+  width: 100%; /* Allow the image to fill the entire width of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0; /* Remove border-radius to avoid clipping */
+  object-fit: cover; /* Ensure the image covers the entire div */
+  margin-right: 0; /* Remove margin to avoid overflow */
 }
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
+  text-align: center;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1771,11 +1774,9 @@ section,
 }
 
 .portfolio-details .portfolio-description .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  float: left;
-  margin: 0 10px 0 0;
+  width: 100%; /* Ensure the image takes the full width of the container */
+  height: 100%; /* Ensure the image takes the full height of the container */
+  object-fit: cover; /* Ensure the image covers the entire container */
 }
 
 .portfolio-details .portfolio-description .testimonial-item h3 {
