@@ -27,28 +27,30 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Added Font Awesome for icons -->
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <style>
     .category-card {
-        background-color: #f8f9fa;
-        border-radius: 50px;
-        padding: 20px;
-        text-align: center;
-        height: 100%;
+        background-color: #ffffff; /* Changed to white for a cleaner look */
+        border-radius: 15px; /* Reduced border radius for a modern feel */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+        transition: transform 0.3s; /* Added transition for hover effect */
+        padding: 20px; /* Increased padding */
     }
-
+    .category-card:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+    }
     .category-icon {
-        font-size: 40px;
-        margin-bottom: 20px;
-        color: #0c2e8a;
+        font-size: 50px; /* Increased icon size */
+        color: #007bff; /* Changed icon color to a modern blue */
     }
-
     .category-title {
         font-weight: bold;
-        font-size: 20px;
+        font-size: 24px; /* Increased title size */
         color: #0c2e8a;
+        margin-top: 10px; /* Added margin for spacing */
     }
 
     .category-list {
@@ -127,13 +129,13 @@
       </div>
     </div><!-- End Page Title -->
     <!-- Service Details Section -->
-    <section id="service-details" class="service-details section" style="padding: 10px;">
+    <section id="service-details" class="service-details section" style="padding: 20px;"> <!-- Increased padding -->
       <div class="container container-custom">
         <div class="row text-center">
             <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class="category-card p-3">
+                <div class="category-card p-4"> <!-- Increased padding -->
                     <div class="category-icon">
-                        <i class="bi bi-laptop"></i>
+                        <i class="fas fa-laptop"></i> <!-- Updated icon to Font Awesome -->
                     </div>
                     <div class="category-title">Web Development</div>
                     <ul class="category-list">
@@ -154,7 +156,7 @@
             </div>
 
             <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class="category-card p-3">
+                <div class="category-card p-4"> <!-- Increased padding -->
                     <div class="category-icon">
                         <i class="bi bi-paint-bucket"></i>
                     </div>
@@ -178,7 +180,7 @@
             </div>
 
             <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class="category-card p-3">
+                <div class="category-card p-4"> <!-- Increased padding -->
                     <div class="category-icon">
                         <i class="bi bi-cloud"></i>
                     </div>
@@ -192,7 +194,7 @@
             </div>
 
             <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class="category-card p-3">
+                <div class="category-card p-4"> <!-- Increased padding -->
                     <div class="category-icon">
                         <i class="bi bi-tools"></i>
                     </div>
@@ -206,7 +208,7 @@
             </div>
 
             <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                <div class="category-card p-3">
+                <div class="category-card p-4"> <!-- Increased padding -->
                     <div class="category-icon">
                         <i class="bi bi-database"></i>
                     </div>
@@ -223,7 +225,7 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-              <div class="category-card p-3">
+              <div class="category-card p-4"> <!-- Increased padding -->
                   <div class="category-icon">
                       <i class="bi bi-clock"></i>
                   </div>
