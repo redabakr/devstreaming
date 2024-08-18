@@ -59,10 +59,24 @@
     .category-list {
         list-style-type: none;
         padding: 0;
+        margin: 10px 0; /* Added margin for spacing */
+        display: flex; /* Changed to flex for horizontal layout */
+        flex-wrap: wrap; /* Allow items to wrap */
+        justify-content: center; /* Center items */
     }
 
     .category-list li {
         font-size: 14px;
+        margin: 5px 10px; /* Added margin between items */
+        padding: 8px 15px; /* Increased padding for better touch targets */
+        background-color: #ffffff; /* Changed to white for a cleaner look */
+       
+        transition: background-color 0.3s, transform 0.3s; /* Smooth background change and scale effect */
+    }
+
+    .category-list li:hover {
+        background-color: #f0f8ff; /* Light blue background on hover */
+        transform: scale(1.05); /* Slightly enlarge on hover */
     }
 
     .container-custom {
